@@ -46,3 +46,14 @@ Open-MeteoのAPIデータはCC BY 4.0の条件で提供されています。
 - Xcode: Version 26.6 (17F113)
 - Swift: swift-driver version: 1.148.6 Apple Swift version 6.3.3 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
 - iOS: 26.5(23F77) (シミュレータのみで検証)
+
+## 実行方法
+
+1. リポジトリをクローンします。
+2. `WeatherForecastFS.xcodeproj`をXcodeで開きます。
+3. iOSシミュレータを選択して実行します。
+
+APIキーの設定は不要です。
+
+実機で実行する場合は、XcodeのSigning & Capabilitiesで自分のDevelopment Teamを選択してください。
+
