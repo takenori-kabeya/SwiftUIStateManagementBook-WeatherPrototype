@@ -114,6 +114,8 @@ struct ContentView: View {
                             .padding(.vertical, 4)
                         }
                     }
+                    Text(LocalizedStringKey("Weather data by [Open-Meteo.com](https://open-meteo.com)"))
+                        .font(.caption)
                 }
             }
             .navigationTitle("場所を探す")

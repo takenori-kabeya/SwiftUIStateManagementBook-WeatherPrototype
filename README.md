@@ -1,6 +1,5 @@
 # WeatherForecastFS
 
-『Swiftにおける状態管理〜TCAによる解決法〜』第7章で使用した、
 地点検索と天気予報APIの技術検証(FS:Feasibility Study)用アプリです。
 
 ## 検証内容
@@ -18,6 +17,13 @@
 
 TCAは使用していません。
 本番運用を想定した完全なエラー処理やUIではありません。
+
+## データ提供
+
+天気予報データは [Open-Meteo](https://open-meteo.com/) から取得しています。
+
+Weather data by Open-Meteo.com
+Open-MeteoのAPIデータはCC BY 4.0の条件で提供されています。
 
 ## 使用技術
 
