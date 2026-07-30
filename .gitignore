@@ -123,5 +123,5 @@ tmbootpicker.efi
 
 #### Local
 
-scripts/check-public-repositry.pl
+scripts/check-public-repository.pl
 scripts/sanitize-xcode-project.rb
