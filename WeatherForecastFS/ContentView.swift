@@ -49,8 +49,13 @@ struct ContentView: View {
                                 viewModel.select(place)
                             } label: {
                                 HStack {
-                                    Text(place.name)
-                                        .foregroundStyle(.primary)
+                                    VStack(alignment: .leading) {
+                                        Text(place.name)
+                                            .foregroundStyle(.primary)
+                                        Text(place.address)
+                                            .font(.caption)
+                                            .foregroundStyle(.secondary)
+                                    }
                                     Spacer()
                                     if viewModel.selectedPlace == place {
                                         Image(systemName: "checkmark")
