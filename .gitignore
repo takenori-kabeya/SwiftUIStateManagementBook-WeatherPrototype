@@ -61,16 +61,6 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-# Signing and provisioning
-*.mobileprovision
-*.provisionprofile
-*.p12
-*.pfx
-*.cer
-
-# Xcode archives
-*.xcarchive
-
 ##### macOS
 
 # General
@@ -133,5 +123,5 @@ tmbootpicker.efi
 
 #### Local
 
-scripts/check-public-repository.pl
-scripts/sanitize-xcode-project.rb
+localscripts/
+
